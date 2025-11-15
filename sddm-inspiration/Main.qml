@@ -1,3 +1,28 @@
+/*
+Archivo: Main.qml
+
+Descripción: Archivo principal del tema SDDM Inspiration (basado en Eucalyptus Drop).
+Define la estructura principal de la interfaz de login, incluyendo el fondo de imagen,
+efectos de desenfoque, formulario de login, teclado virtual, y todos los componentes
+visuales. Gestiona el posicionamiento del formulario (izquierda, centro, derecha) y
+los efectos visuales configurables como blur completo o parcial.
+
+Autor: migbertweb
+
+Fecha: 2024
+
+Repositorio: https://github.com/migbertweb/sddm-personal
+
+Licencia: MIT License
+
+Uso: Este archivo es el punto de entrada principal del tema SDDM Inspiration. Define
+la estructura base, componentes visuales, y coordina todos los elementos de la interfaz
+de login.
+
+Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+derivados como código libre, especialmente para fines educativos.
+*/
+
 // Copyright info at EOF
 
 import Qt5Compat.GraphicalEffects

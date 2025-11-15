@@ -1,5 +1,28 @@
 #!/bin/python3
 
+"""
+Archivo: generate_docs.py
+
+Descripción: Script de Python que genera automáticamente la documentación de opciones
+del tema a partir del archivo Config.qml. Parsea las propiedades de configuración,
+extrae metadatos (descripción, tipo, valores por defecto, valores posibles) y genera
+archivos JSON y Markdown con la documentación completa de todas las opciones disponibles.
+
+Autor: migbertweb
+
+Fecha: 2024
+
+Repositorio: https://github.com/migbertweb/sddm-personal
+
+Licencia: MIT License
+
+Uso: Ejecutar este script para regenerar la documentación cuando se agreguen o modifiquen
+opciones de configuración en Config.qml. Genera options.json y Options.md.
+
+Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+derivados como código libre, especialmente para fines educativos.
+"""
+
 ######################################################################################################
 #                                                                                                    #
 #                               DO NOT CHANGE THE INDENTATION IN THIS FILE!                          #

@@ -1,4 +1,25 @@
 #!/usr/bin/env bash
+
+# Archivo: change_avatar.sh
+#
+# Descripción: Script de utilidad para cambiar el avatar de un usuario en SDDM.
+# Toma una imagen, la recorta a formato cuadrado, la redimensiona a 256x256 píxeles
+# y la coloca en el directorio de avatares de SDDM. Crea una copia de seguridad
+# automática si ya existe un avatar para el usuario.
+#
+# Autor: migbertweb
+#
+# Fecha: 2024
+#
+# Repositorio: https://github.com/migbertweb/sddm-personal
+#
+# Licencia: MIT License
+#
+# Uso: ./change_avatar.sh <username> <path_to_image>
+#
+# Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+# derivados como código libre, especialmente para fines educativos.
+
 green='\033[0;32m'
 red='\033[0;31m'
 cyan='\033[0;36m'

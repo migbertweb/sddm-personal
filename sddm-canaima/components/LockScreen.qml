@@ -1,3 +1,27 @@
+/*
+Archivo: LockScreen.qml
+
+Descripción: Componente de la pantalla de bloqueo del tema SDDM Canaima. Muestra
+el reloj, fecha, y mensaje personalizado cuando el sistema está bloqueado. Gestiona
+la transición hacia la pantalla de inicio de sesión cuando el usuario solicita login.
+Permite personalización completa de posición, formato, fuentes y colores de todos
+los elementos visuales.
+
+Autor: migbertweb
+
+Fecha: 2024
+
+Repositorio: https://github.com/migbertweb/sddm-personal
+
+Licencia: MIT License
+
+Uso: Proporciona la interfaz visual de la pantalla de bloqueo, mostrando información
+temporal y permitiendo al usuario solicitar acceso al sistema.
+
+Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+derivados como código libre, especialmente para fines educativos.
+*/
+
 import QtQuick
 import QtQuick.Effects
 import QtQuick.Layouts

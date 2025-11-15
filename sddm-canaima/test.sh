@@ -1,4 +1,25 @@
 #!/usr/bin/env bash
+
+# Archivo: test.sh
+#
+# Descripción: Script para probar el tema SDDM sin necesidad de reiniciar el sistema.
+# Ejecuta el greeter de SDDM en modo de prueba, permitiendo verificar que el tema
+# funciona correctamente y que todas las dependencias están instaladas antes de
+# aplicar los cambios permanentemente.
+#
+# Autor: migbertweb
+#
+# Fecha: 2024
+#
+# Repositorio: https://github.com/migbertweb/sddm-personal
+#
+# Licencia: MIT License
+#
+# Uso: ./test.sh [debug] - Ejecuta el tema en modo prueba. Opcionalmente con modo debug.
+#
+# Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+# derivados como código libre, especialmente para fines educativos.
+
 green='\033[0;32m'
 red='\033[0;31m'
 bred='\033[1;31m'

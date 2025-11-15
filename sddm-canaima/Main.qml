@@ -1,3 +1,27 @@
+/*
+Archivo: Main.qml
+
+Descripción: Archivo principal del tema SDDM Canaima. Gestiona la lógica de estados entre
+la pantalla de bloqueo (lock screen) y la pantalla de inicio de sesión (login screen).
+Maneja la visualización de fondos (imágenes y videos), efectos visuales (blur, brightness,
+saturation), y las transiciones entre estados. Coordina los componentes LockScreen y
+LoginScreen según la configuración.
+
+Autor: migbertweb
+
+Fecha: 2024
+
+Repositorio: https://github.com/migbertweb/sddm-personal
+
+Licencia: MIT License
+
+Uso: Este archivo es el punto de entrada principal del tema SDDM. Define la estructura
+base, estados de la interfaz, y coordina todos los componentes visuales del tema.
+
+Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+derivados como código libre, especialmente para fines educativos.
+*/
+
 import "."
 import QtQuick
 import SddmComponents

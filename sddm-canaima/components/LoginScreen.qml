@@ -1,3 +1,27 @@
+/*
+Archivo: LoginScreen.qml
+
+Descripción: Componente principal de la pantalla de inicio de sesión. Gestiona la
+interfaz de usuario para el login, incluyendo la selección de usuarios, entrada de
+contraseña, botón de login, mensajes de advertencia, y manejo de estados (normal,
+selectingUser, authenticating). Coordina con otros componentes como UserSelector,
+PasswordInput, MenuArea y VirtualKeyboard.
+
+Autor: migbertweb
+
+Fecha: 2024
+
+Repositorio: https://github.com/migbertweb/sddm-personal
+
+Licencia: MIT License
+
+Uso: Proporciona la interfaz de usuario completa para el proceso de inicio de sesión,
+manejando la autenticación, validación, y retroalimentación visual al usuario.
+
+Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+derivados como código libre, especialmente para fines educativos.
+*/
+
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts

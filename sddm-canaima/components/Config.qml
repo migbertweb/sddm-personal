@@ -1,3 +1,27 @@
+/*
+Archivo: Config.qml
+
+Descripción: Archivo de configuración singleton que define todas las propiedades
+personalizables del tema SDDM Canaima. Proporciona acceso a más de 200 opciones de
+configuración organizadas por categorías (General, LockScreen, LoginScreen, etc.).
+Lee los valores desde archivos .conf y proporciona valores por defecto cuando no
+están especificados. Este archivo es fundamental para la personalización del tema.
+
+Autor: migbertweb
+
+Fecha: 2024
+
+Repositorio: https://github.com/migbertweb/sddm-personal
+
+Licencia: MIT License
+
+Uso: Define todas las propiedades de configuración del tema, incluyendo colores,
+tamaños, posiciones, efectos visuales, y comportamiento de los componentes.
+
+Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+derivados como código libre, especialmente para fines educativos.
+*/
+
 pragma Singleton
 
 import QtQuick
